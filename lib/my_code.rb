@@ -28,6 +28,7 @@ def map_to_double(source_array)
   end
   new_array
 end
+
 def map_to_square(source_array)
    counter = 0 
   new_array =[]
