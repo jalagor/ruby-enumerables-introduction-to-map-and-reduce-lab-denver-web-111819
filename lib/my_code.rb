@@ -68,8 +68,7 @@ def reduce_to_any_true(source_array)
   while counter < source_array.count do 
     if source_array[counter] == true
       return true 
-    else
-      return false
+     
     end
     counter += 1 
   end
