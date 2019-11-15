@@ -55,7 +55,7 @@ def reduce_to_all_true(source_array)
   
   while counter < source_array.count do 
     if source_array[counter] 
-      puts "true" 
+      p "true" 
     else 
       puts "nil"
     end
