@@ -9,7 +9,7 @@ def map_to_negativize(source_array)
   new_array
 end
 
-def map_to_no_change
+def map_to_no_change(source_array)
  counter = 0 
   new_array =[]
   while counter < source_array.count do 
@@ -18,7 +18,8 @@ def map_to_no_change
   end
   new_array
 end 
-def map_to_double 
+
+def map_to_double(source_array)
    counter = 0 
   new_array =[]
   while counter < source_array.count do 
@@ -27,7 +28,7 @@ def map_to_double
   end
   new_array
 end
-def map_to_square 
+def map_to_square(source_array)
    counter = 0 
   new_array =[]
   while counter < source_array.count do 
