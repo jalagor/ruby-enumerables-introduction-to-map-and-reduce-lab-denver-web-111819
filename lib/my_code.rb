@@ -54,8 +54,8 @@ def reduce_to_all_true(source_array)
   counter = 0  
   
   while counter < source_array.count do 
-    if source_array[counter] 
-      p "true" 
+    if source_array[counter] == false
+      p false
     else 
       puts "nil"
     end
