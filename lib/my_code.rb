@@ -46,5 +46,5 @@ def reduce_to_total(source_array)
     total += source_array[counter] 
     counter += 1
   end
-  puts total 
+  p total 
 end
